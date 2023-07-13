@@ -21,16 +21,19 @@
 - [📝 License](#license)
 
 
+
 # 📖 Microverse Portfolio project <a name="about-project"></a>
 
 
 [**Portfolio Microverse project**](https://tatouroberto.github.io/) is a project that is developed in the module 1 of the microverse program to build a portfolio.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
+
 <summary>Front-End Tech</summary>
   <ul>
     <li><a href="https://github.com/">Github</a></li>
@@ -43,10 +46,12 @@
 
 - **Add linter to resolve some hmtl and css issue**
 - **reproducing from a figma**
+
 - **Add Css to styles to acquire design**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -58,9 +63,11 @@ In order to run this project you need:
 - Any browser
 
 
+
 ### Setup
 
 Clone this repository to your desired folder:
+
 ```sh
 git clone git@github.com:tatouroberto/project-portfolio.git
 ```
@@ -69,9 +76,11 @@ git clone git@github.com:tatouroberto/project-portfolio.git
 
 Install this project with:
 
+
 ```sh
 npm install
 ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +88,9 @@ npm install
 ## 👥 Authors <a name="authors"></a>
 
 
+
 👤 **TATOU ROBERTO**
+
 
 - GitHub: [@tatouroberto](https://github.com/tatouroberto)
 - Twitter: [@Tatou_rob](https://twitter.com/Tatou_rob)
@@ -92,6 +103,7 @@ npm install
 
 - **Add javascript functionality**
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -103,9 +115,7 @@ Feel free to check the [issues page](https://github.com/tatouroberto/project-por
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
-
 
 If you like this project you can download it and give it a star⭐️.
 
@@ -115,6 +125,7 @@ If you like this project you can download it and give it a star⭐️.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I will like to thank Microverse for giving me the opportunity to become a professional developer
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
