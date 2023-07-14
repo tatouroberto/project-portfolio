@@ -16,7 +16,7 @@ body {
 }
 
 .hearders {
-  background: url("/img/header-shapes.png") no-repeat center center;
+  background: url("img/header-shapes.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
