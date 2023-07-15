@@ -175,6 +175,8 @@ a {
   justify-items: center;
   grid-gap: 88px;
   padding: 144px 0 144px 0;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .card {
@@ -184,8 +186,6 @@ a {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .canopy {
