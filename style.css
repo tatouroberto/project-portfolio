@@ -64,6 +64,14 @@ body {
   color: #172b4d;
 }
 
+.about {
+  display: flex;
+  width: 327px;
+  height: 35px;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .header-sub {
   background: url("/img/header-shapes.png") no-repeat center center;
   -webkit-background-size: cover;
@@ -71,10 +79,11 @@ body {
   -o-background-size: cover;
   background-size: contain, cover;
   display: flex;
+  justify-content: space-between;
   padding: 4px 24px 4px 12px;
   background-color: transparent;
   position: fixed;
-  gap: 160px;
+  width: 90vw;
 }
 
 .parrafo {
@@ -216,7 +225,6 @@ a {
 
 .ul-tag {
   display: flex;
-  justify-content: space-between;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   padding: 0 65px 0 0;
@@ -334,6 +342,8 @@ a {
   display: flex;
   align-items: center;
   gap: 16px;
+  background: var(--neutrals-n-10, #f7f7f9);
+  border-radius: 8px;
 }
 
 .arrow-right {
