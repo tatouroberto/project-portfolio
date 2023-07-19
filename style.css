@@ -427,3 +427,24 @@ form {
 .contact-form li {
   margin-bottom: 20px;
 }
+
+input {
+  padding: 3px 65px 4px 16px;
+  border-radius: 3px;
+  border-color: white;
+}
+
+textarea {
+  padding: 2px 65px 2px 16px;
+  border-radius: 3px;
+  border-color: white;
+  height: 10em;
+}
+
+.light {
+  padding: 2px 11px 5px 1px;
+}
+
+hr {
+  width: 100%;
+}
