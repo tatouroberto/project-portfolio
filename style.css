@@ -387,7 +387,9 @@ a {
 
 .contacts {
   background: url("img/contact-form.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 
 .forms {
@@ -414,35 +416,44 @@ a {
 form {
   box-sizing: border-box;
   align-self: center;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .contact-form ul {
   display: block;
   list-style: none;
-  padding-left: 0;
+  padding-inline-start: 0;
 }
 
-.contact-form li {
+.firt__list {
   margin-bottom: 20px;
 }
 
+.second__list {
+  margin-bottom: 18px;
+}
+
+.third__list {
+  margin-bottom: 10px;
+}
+
 input {
-  padding: 3px 65px 4px 16px;
-  border-radius: 3px;
+  border-radius: 8px;
   border-color: white;
+  height: 48px;
+  width: 82vw;
 }
 
 textarea {
-  padding: 2px 65px 2px 16px;
-  border-radius: 3px;
+  border-radius: 8px;
   border-color: white;
-  height: 10em;
+  height: 170px;
+  width: 82vw;
 }
 
 .light {
-  padding: 2px 11px 5px 1px;
+  background-color: #6070ff;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
