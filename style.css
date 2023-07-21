@@ -363,6 +363,7 @@ a {
 .conta {
   background-color: white;
   padding-top: 62px;
+  width: 100vw;
 }
 
 .contact-section {
@@ -448,45 +449,25 @@ hr {
   width: 100%;
 }
 
-.nav-elements {
-  display: none;
-}
-
-.desk-card-image {
-  display: none;
-}
-
-.facebook {
-  display: none;
-}
-
-.text-desk {
-  display: none;
-}
-
+.nav-elements,
+.desk-card-image,
+.facebook,
+.text-desk,
 .ruby {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
-  .canopy {
-    display: none;
-  }
-
-  .text {
+  .canopy,
+  .bars,
+  .tallbar,
+  .text,
+  .light {
     display: none;
   }
 
   body {
     font-size: 20px;
-  }
-
-  .tallbar {
-    display: none;
-  }
-
-  .bars {
-    display: none;
   }
 
   .header-sub {
@@ -500,12 +481,13 @@ hr {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain, cover;
+    background-position: 5vh 10vh;
     background-color: #fff;
     border-radius: 0 0 0 70px;
     width: auto;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 35px;
     padding: 20vh 16vw 15vh 14vw;
   }
 
@@ -514,14 +496,8 @@ hr {
     width: 45vw;
   }
 
-  p {
-    margin: 0;
-  }
-
-  .connect-P {
-    margin: 0;
-  }
-
+  p,
+  .connect-P,
   .ul {
     margin: 0;
   }
@@ -534,7 +510,7 @@ hr {
     display: flex;
     flex-direction: row;
     border-radius: 10px 70px 0 0;
-    padding: 10vh 10vw 10vh 10vw;
+    padding: 5vh 10vw 10vh 10vw;
     width: 100vw;
   }
 
@@ -615,10 +591,13 @@ hr {
 
   .first {
     width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
   }
 
   .second {
-    width: 40vw;
+    width: 45vw;
   }
 
   .dropdown-items {
@@ -673,5 +652,21 @@ hr {
   .facebook-but {
     background-color: #4053fc;
     color: white;
+  }
+
+  .languages {
+    gap: 2vh;
+  }
+
+  .button__holder {
+    padding: 12px 10vw 12px 0;
+  }
+
+  .arrow-pointing-down {
+    left: 100%;
+  }
+
+  .arrow-right {
+    left: 100%;
   }
 }
