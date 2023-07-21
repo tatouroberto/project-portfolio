@@ -502,16 +502,13 @@ hr {
     margin: 0;
   }
 
-  .icon {
-    margin-top: 0;
-  }
-
   .myself-section {
     display: flex;
     flex-direction: row;
     border-radius: 10px 70px 0 0;
     padding: 5vh 10vw 10vh 10vw;
     width: 100vw;
+    overflow-x: none;
   }
 
   .nav-elements {
@@ -554,6 +551,10 @@ hr {
     width: 50%;
     padding-left: 1vw;
     padding-bottom: 7vh;
+  }
+
+  .icon {
+    margin-top: 0;
   }
 
   .facebook {
@@ -616,6 +617,7 @@ hr {
   .contacts {
     background: url("img/contact-form-desk.png") no-repeat;
     background-size: contain;
+    background-position: 5vh 1;
   }
 
   .forms {
