@@ -688,4 +688,15 @@ hr {
     color: #00f;
     background-color: #7f8cff;
   }
+
+  @keyframes slidein {
+    from {
+      margin-left: 10%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 }
