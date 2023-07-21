@@ -507,8 +507,6 @@ hr {
     flex-direction: row;
     border-radius: 10px 70px 0 0;
     padding: 5vh 10vw 10vh 10vw;
-    width: 100vw;
-    overflow-x: none;
   }
 
   .nav-elements {
@@ -670,5 +668,11 @@ hr {
 
   .arrow-right {
     left: 100%;
+  }
+
+  .nav-elements a:hover,
+  .nav-elements a:focus {
+    color: #00f;
+    background-color: #7f8cff;
   }
 }
