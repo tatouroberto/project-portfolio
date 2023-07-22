@@ -494,6 +494,9 @@ hr {
   .h-title {
     margin: 0;
     width: 45vw;
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
   }
 
   p,
@@ -670,9 +673,31 @@ hr {
     left: 100%;
   }
 
+  .logo {
+    transition: width 2s, height 2s, rotate 2s;
+  }
+
+  .logo:hover {
+    width: 200px;
+    height: 200px;
+    rotate: 360deg;
+  }
+
   .nav-elements a:hover,
   .nav-elements a:focus {
     color: #00f;
     background-color: #7f8cff;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 10%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 }
