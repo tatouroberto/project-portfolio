@@ -452,7 +452,6 @@ hr {
   display: none;
 }
 
-
 .Hanburger-menu {
   width: 100vw;
   height: 100vh;
@@ -500,11 +499,8 @@ hr {
   .bars,
   .tallbar,
   .text,
-
   .light,
   .Hanburger-menu {
-=======
-
     display: none;
   }
 
