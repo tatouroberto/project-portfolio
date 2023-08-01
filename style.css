@@ -7,7 +7,6 @@ body {
   font-size: 12px;
   font-family: 'Poppins', Arial, sans-serif;
   background-color: #e5e5e5;
-  overflow-x: none;
 }
 
 .tallbar {
@@ -134,7 +133,6 @@ h2 {
   line-height: 92%;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 40px;
   color: #172b4d;
 }
@@ -300,7 +298,6 @@ a {
 #lang {
   font-size: 20px;
   color: #000;
-  align-items: left;
 }
 
 .arrow-pointing-down {
@@ -310,7 +307,6 @@ a {
   width: 7px;
   border-top: 3px solid #acb7c3;
   border-left: 3px solid #acb7c3;
-  vertical-align: end;
   padding: 3px;
   display: inline-block;
   justify-content: space-around;
@@ -347,7 +343,6 @@ a {
   width: 7px;
   border-top: 3px solid #acb7c3;
   border-left: 3px solid #acb7c3;
-  vertical-align: end;
   display: inline-block;
   padding-left: -20%;
   top: 30%;
@@ -661,7 +656,7 @@ hr {
   .contacts {
     background: url("img/contact-form-desk.png") no-repeat;
     background-size: contain;
-    background-position: 5vh 1;
+    background-position: 5vh 1vh;
   }
 
   .forms {
