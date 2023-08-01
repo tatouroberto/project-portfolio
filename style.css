@@ -478,7 +478,7 @@ hr {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 32px;
 }
 
 .Hanburger-menu ul li button {
