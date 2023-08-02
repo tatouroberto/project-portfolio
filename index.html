@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+
+  <script src="main.js" defer></script>
+
   <script src="https://kit.fontawesome.com/89d87f2112.js" crossorigin="anonymous"></script>
   <title>Portafolio</title>
 </head>
@@ -25,14 +27,18 @@
         </nav>
 
     
-        <button class="bars">
+
+        <button class="bars" onclick="showMenu()">
+
             <i class="fa-solid fa-bars"></i>
         </button>
         
       </div>
       
     </header>
-    <main class="main" id="card">
+
+    <main class="main" id="card Portifolio">
+
         <section class="hearder-section">
           <div class="hearders">
 
@@ -246,7 +252,9 @@
   
     </div>
   </section>
-  <section class="myself-section" id="about">
+
+  <section class="myself-section" id="About">
+
       <div class="first">
         <div class="title">
           <h2 class="h-title about">About Myself</h2>
@@ -304,7 +312,9 @@
       </div>
 </section>
 <section  class="conta">
-  <div class="contact-section" id="contact">
+
+  <div class="contact-section" id="Contact">
+
   <div class="contacts">
     <div class="forms">
       <h3 class="heading-two">contact me</h3>
@@ -343,6 +353,28 @@
 
 
 </main>
+
+
+<div class="Hanburger-menu" id="Menu">
+  <ul>
+    <li>
+      <button onclick="hideMenu()" >
+        <a href=""><img src="img/crosss.png" alt=""></a>
+      </button>
+    </li>
+    <li>
+      <a href="#Portifolio" onclick="hideMenu()">Portifolio</a>
+    </li>
+    <li>
+      <a href="#About" onclick="hideMenu()">About</a>
+    </li>
+    <li>
+      <a href="#Contact" onclick="hideMenu()" class="contactLink">Contact</a>
+    </li>
+  </ul>
+
+</div>
+
 
 <footer>
   

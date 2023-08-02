@@ -7,7 +7,6 @@ body {
   font-size: 12px;
   font-family: 'Poppins', Arial, sans-serif;
   background-color: #e5e5e5;
-  overflow-x: none;
 }
 
 .tallbar {
@@ -134,7 +133,6 @@ h2 {
   line-height: 92%;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 40px;
   color: #172b4d;
 }
@@ -300,7 +298,6 @@ a {
 #lang {
   font-size: 20px;
   color: #000;
-  align-items: left;
 }
 
 .arrow-pointing-down {
@@ -310,7 +307,6 @@ a {
   width: 7px;
   border-top: 3px solid #acb7c3;
   border-left: 3px solid #acb7c3;
-  vertical-align: end;
   padding: 3px;
   display: inline-block;
   justify-content: space-around;
@@ -347,7 +343,6 @@ a {
   width: 7px;
   border-top: 3px solid #acb7c3;
   border-left: 3px solid #acb7c3;
-  vertical-align: end;
   display: inline-block;
   padding-left: -20%;
   top: 30%;
@@ -457,12 +452,55 @@ hr {
   display: none;
 }
 
+.Hanburger-menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #6070ff;
+  position: fixed;
+  padding-top: 40px;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 3;
+  backdrop-filter: blur(5px);
+  opacity: 0.8;
+}
+
+.Hanburger-menu ul li a {
+  color: var(--theme-1-neutrals-11, #fff);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.Hanburger-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.Hanburger-menu ul li button {
+  padding: 1px;
+  background-color: transparent;
+  float: right;
+  margin-right: 24px;
+  border: none;
+}
+
+.Hanburger-menu ul li button img {
+  width: 24px;
+  height: 24px;
+}
+
 @media only screen and (min-width: 768px) {
   .canopy,
   .bars,
   .tallbar,
   .text,
-  .light {
+  .light,
+  .Hanburger-menu {
     display: none;
   }
 
@@ -618,7 +656,7 @@ hr {
   .contacts {
     background: url("img/contact-form-desk.png") no-repeat;
     background-size: contain;
-    background-position: 5vh 1;
+    background-position: 5vh 1vh;
   }
 
   .forms {
