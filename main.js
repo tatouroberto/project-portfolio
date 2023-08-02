@@ -109,3 +109,83 @@ function populatCard(index) {
 for (let index = 0; index < cardInfo.length; index += 1) {
   populatCard(index);
 }
+
+let popContainer = document.querySelector('.pop-wrapper');
+const buttonPressed = document.querySelectorAll('.project');
+buttonPressed.forEach((index) => {
+  index.addEventListener('click', () => {
+    const buttonId = index.id;
+    const selectedCard = cardInfo[buttonId];
+    popContainer.classList.add('pop-container');
+    popContainer.innerHTML += `
+      <div class="popUP">
+      <div class="card-pop">
+          <div class="text-card-pop">
+            <div>
+              <button onclick="closePop()" >
+                <a href=""><img src="img/cross-pop.png" alt=""></a>
+              </button>
+              <h3>${selectedCard.name}</h3>
+            </div>
+            <ul class="canopy">
+              <li class="cano"><a href="#" class="can">${selectedCard.role1[0]}</a></li>
+              <li><a href="#" class="canop ">${selectedCard.role1[1]}</a></li>
+              <li><a href="#" class="canop">${selectedCard.role1[2]}</a></li>
+            </ul>
+          <ul class="facebook">
+            <li class="cano"><a href="#" class="can">${selectedCard.role2[0]}</a></li>
+            <li><a href="#" class="canop STACK">${selectedCard.role2[1]}</a></li>
+            <li><a href="#" class="canop">${selectedCard.role2[2]}</a></li>
+          </ul>
+        <img ${selectedCard.image1} alt="a_screentshot" class="desk-card-image desk-card-image-pop">
+        <img ${selectedCard.image2} alt="a_screentshot" class="pic">
+      </div>
+        <div class="pop-content">
+          <div class="pop-text">
+            <p class="text-pop">
+            ${selectedCard.description1}
+          </p>
+          <p class="text-desk">
+          ${selectedCard.description2}
+        </p>
+          </div>
+          <div class="pop-tag">
+          <ul class="ul-tag-pop">
+              <li class="tag">
+                  <a href="" class="tag-in">${selectedCard.techskills[0]}</a>
+              </li>
+              <li class="tag">
+                  <a href="" class="tag-in" >${selectedCard.techskills[2]}</a>
+              </li>
+              <li class="tag">
+                  <a href="" class="tag-in">${selectedCard.techskills[3]}</a>
+              </li>
+          </ul>
+          <ul class="ul-tag-pop">
+          <li class="tag ruby">
+           <a href="" class="tag-in ">${selectedCard.techskills[4]}</a>
+          </li>
+          <li class="tag ruby">
+          <a href="" class="tag-in ">${selectedCard.techskills[5]}</a>
+         </li>
+      </ul>
+        <div class="pop-button">
+          <div class="button__holder-pop"><a href="#" class="button project button-pop">See live <img src="img/button-image1.png" alt=""></a></div>
+          <div class="button__holder-pop"><a href="#" class="button project button-pop ">See source <img src="img/Frame.png" alt=""></a></div>
+        </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    `;
+    const closePop = () => {
+      popContainer.style.display = 'none';
+    };
+    const contactLink = document.getElementsByClassName('contactLinki');// this an its usage s to run from linters
+    contactLink.addEventListener(onclick, closePop);
+  });
+});
+const contactLink = document.getElementsByClassName('contactLink');// this an its usage s to run from linters
+contactLink.addEventListener(onclick, hideMenu);
+contactLink.addEventListener(onclick, showMenu);
+popContainer += popContainer;
