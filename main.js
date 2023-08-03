@@ -15,6 +15,8 @@ const cardInfo = [
     role2: ['FACEBOOK', 'Full stack dev', '2015'],
     description1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description3: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description4: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     techskills: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript', 'Ruby', 'Boostrap'],
     image1: 'src="img/Snapshoot1-desk.png"',
     image2: 'src="img/Snapshoot-Portfolio.png"',
@@ -28,6 +30,8 @@ const cardInfo = [
     role2: ['FACEBOOK', 'Full stack dev', '2015'],
     description1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description3: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description4: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     techskills: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript', 'Ruby', 'Boostrap'],
     image1: 'src="img/Snapshoot-desk2.png"',
     image2: 'src="img/Snapshoot1.png"',
@@ -41,6 +45,8 @@ const cardInfo = [
     role2: ['FACEBOOK', 'Full stack dev', '2015'],
     description1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description3: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description4: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     techskills: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript', 'Ruby', 'Boostrap'],
     image1: 'src="img/Snapshoot-desk3.png"',
     image2: 'src="img/Snapshoot2.png"',
@@ -54,6 +60,8 @@ const cardInfo = [
     role2: ['FACEBOOK', 'Full stack dev', '2015'],
     description1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description3: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description4: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     techskills: ['HTML', 'Ruby on rails', 'CSS', 'JavaScript', 'Ruby', 'Boostrap'],
     image1: 'src="img/Snapshoot-desk4.png"',
     image2: 'src="img/Snapshoot3.png"',
@@ -145,9 +153,13 @@ buttonPressed.forEach((index) => {
             <p class="text-pop">
             ${selectedCard.description1}
           </p>
-          <p class="text-desk">
-          ${selectedCard.description2}
+          <p class="text-desk-pop">
+          ${selectedCard.description3}
         </p>
+        <br>
+        <p class="text-desk-pop">
+        ${selectedCard.description4}
+      </p>
           </div>
           <div class="pop-tag">
           <ul class="ul-tag-pop">
