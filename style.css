@@ -591,7 +591,8 @@ hr {
   .tallbar,
   .text,
   .light,
-  .Hanburger-menu {
+  .Hanburger-menu,
+  .text-pop {
     display: none;
   }
 
@@ -851,11 +852,11 @@ hr {
   }
 
   .pop-text {
-    width: 63%;
+    width: 80%;
   }
 
   .pop-tag {
-    width: 37%;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -863,6 +864,7 @@ hr {
 
   .pop-content {
     display: flex;
+    gap: 5px;
   }
 
   .popUP {
@@ -892,5 +894,14 @@ hr {
   .button-pop {
     font-size: 13px;
     padding: 8px;
+  }
+
+  .text-desk-pop {
+    display: block;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #344563;
+    font-size: 16px;
   }
 }
