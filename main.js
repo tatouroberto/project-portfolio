@@ -201,3 +201,17 @@ const contactLink = document.getElementsByClassName('contactLink');// this an it
 contactLink.addEventListener(onclick, hideMenu);
 contactLink.addEventListener(onclick, showMenu);
 popContainer += popContainer;
+
+const email = document.querySelector('#mail');//  selecting the email
+const regex = /[A-Z]/g; //  capital leters
+const verifyMail = () => {
+  if ((email.value.match(regex)) != null) {
+    email.setCustomValidity('please your email should be in small letters!');
+  } else {
+    email.setCustomValidity('');
+  }
+};
+email.addEventListener('input', verifyMail);
+const contactLink = document.getElementsByClassName('contactLink');// this an its usage s to run from linters
+contactLink.addEventListener(onclick, hideMenu);
+contactLink.addEventListener(onclick, showMenu);
