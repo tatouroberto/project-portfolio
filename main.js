@@ -210,6 +210,6 @@ const verifyMail = () => {
   }
 };
 email.addEventListener('input', verifyMail);
-//const contactLink = document.getElementsByClassName('contactLink');// this an its usage s to run from linters
-//contactLink.addEventListener(onclick, hideMenu);
-//contactLink.addEventListener(onclick, showMenu);
+const contactLink = document.getElementsByClassName('contactLink');// this an its usage s to run from linters
+contactLink.addEventListener(onclick, hideMenu);
+contactLink.addEventListener(onclick, showMenu);
