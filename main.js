@@ -190,14 +190,26 @@ buttonPressed.forEach((index) => {
         </div>
     </div>
     `;
+    /* eslint-disable no-unused-vars */
     const closePop = () => {
       popContainer.style.display = 'none';
     };
-    const contactLink = document.getElementsByClassName('contactLinki');// this an its usage s to run from linters
-    contactLink.addEventListener(onclick, closePop);
+    /* eslint-enable no-unused-vars */
   });
 });
+popContainer += popContainer;
+
+//  form validation
+const email = document.querySelector('#mail');//  selecting the email
+const regex = /[A-Z]/g; //  capital leters
+const verifyMail = () => {
+  if ((email.value.match(regex)) != null) {
+    email.setCustomValidity('please your email should be in small letters!');
+  } else {
+    email.setCustomValidity('');
+  }
+};
+email.addEventListener('input', verifyMail);
 const contactLink = document.getElementsByClassName('contactLink');// this an its usage s to run from linters
 contactLink.addEventListener(onclick, hideMenu);
 contactLink.addEventListener(onclick, showMenu);
-popContainer += popContainer;
